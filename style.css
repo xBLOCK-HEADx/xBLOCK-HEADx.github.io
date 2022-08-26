@@ -1,7 +1,7 @@
 body {
   background-color: black;
 }
-h1 {
+.container {
   color: #cccc99
   text-align: center;
 }
