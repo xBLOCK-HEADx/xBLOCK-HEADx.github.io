@@ -2,6 +2,7 @@ body {
   background-color: black;
 }
 .container {
-  color: #cccc99
-  text-align: center;
+  text-color: #cccc99
+  display: flex
+  justify-items: center;
 }
