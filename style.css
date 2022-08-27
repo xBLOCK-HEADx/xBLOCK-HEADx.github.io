@@ -1,8 +1,38 @@
+@font-face {
+    font-family: "CascadiaCode-Roman";
+    src: url('CascadiaCode-Roman.woff2');
+} 
+
 body {
   background-color: black;
+  font-family: 'CascadiaCode-Roman', Fallback, sans-serif;
+  text-align: center;
 }
-.container {
-  text-color: #cccc99
-  display: flex
-  justify-items: center;
+h1 {
+    display: inline;
+    font-size: 6em;
 }
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 6em;
+    }
+}
+@media screen and (min-width: 601) and (max-width: 1000px) {
+    h1 {
+        font-size: 4em;
+    }
+}
+@media screen and (min-width: 1001) and (max-width: 1400px) {
+    h1 {
+        font-size: 2em;
+    }
+}
+.container{
+    display: inline;
+}
+.inner {
+    display: inline-block;
+    margin: auto;
+    justify-items: center;
+}
+
