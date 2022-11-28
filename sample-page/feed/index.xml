@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: The block{}head/ Pages&#8230;	</title>
-	<atom:link href="http://xBLOCK-HEADx.github.io/sample-page/feed/" rel="self" type="application/rss+xml" />
-	<link>http://xBLOCK-HEADx.github.io</link>
+	<atom:link href="/sample-page/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
 	<description>How I do stuff...</description>
 	<lastBuildDate>Mon, 29 Aug 2022 11:40:00 +0000</lastBuildDate>
 	<sy:updatePeriod>

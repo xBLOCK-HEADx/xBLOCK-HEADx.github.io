@@ -2,13 +2,13 @@
 <html>
 	<head>
 		<title>Redirecting...</title>
-		<meta http-equiv="refresh" content="0;url=http://xBLOCK-HEADx.github.io/wp-content/uploads/https:/imagemagick.org/image/wizard.jpg">
+		<meta http-equiv="refresh" content="0;url=/wp-content/uploads/https:/imagemagick.org/image/wizard.jpg">
 	</head>
 	<body>
 		<script type="text/javascript">
-			window.location = "http://xBLOCK-HEADx.github.io/wp-content/uploads/https:/imagemagick.org/image/wizard.jpg";
+			window.location = "/wp-content/uploads/https:/imagemagick.org/image/wizard.jpg";
 		</script>
 
-		<p>You are being redirected to <a href="http://xBLOCK-HEADx.github.io/wp-content/uploads/https:/imagemagick.org/image/wizard.jpg">http://xBLOCK-HEADx.github.io/wp-content/uploads/https:/imagemagick.org/image/wizard.jpg</a></p>
+		<p>You are being redirected to <a href="/wp-content/uploads/https:/imagemagick.org/image/wizard.jpg">/wp-content/uploads/https:/imagemagick.org/image/wizard.jpg</a></p>
 	</body>
 </html>

@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Apache2 &#8211; block{}head/</title>
-	<atom:link href="http://xBLOCK-HEADx.github.io/category/apache2/feed/" rel="self" type="application/rss+xml" />
-	<link>http://xBLOCK-HEADx.github.io</link>
+	<atom:link href="/category/apache2/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
 	<description>How I do stuff...</description>
 	<lastBuildDate>Sun, 18 Sep 2022 17:33:48 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,22 +21,22 @@
 	<generator>https://wordpress.org/?v=6.1.1</generator>
 
 <image>
-	<url>http://xBLOCK-HEADx.github.io/wp-content/uploads/2022/08/cropped-blockhead-icon-32x32.webp</url>
+	<url>/wp-content/uploads/2022/08/cropped-blockhead-icon-32x32.webp</url>
 	<title>Apache2 &#8211; block{}head/</title>
-	<link>http://xBLOCK-HEADx.github.io</link>
+	<link></link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>How to enable brotli on Apache2 server with gzip fallback</title>
-		<link>http://xBLOCK-HEADx.github.io/how-to-enable-brotli-on-apache2-server-with-gzip-fallback/</link>
-					<comments>http://xBLOCK-HEADx.github.io/how-to-enable-brotli-on-apache2-server-with-gzip-fallback/#respond</comments>
+		<link>/how-to-enable-brotli-on-apache2-server-with-gzip-fallback/</link>
+					<comments>/how-to-enable-brotli-on-apache2-server-with-gzip-fallback/#respond</comments>
 		
 		<dc:creator><![CDATA[test]]></dc:creator>
 		<pubDate>Sun, 18 Sep 2022 10:46:54 +0000</pubDate>
 				<category><![CDATA[Apache2]]></category>
 		<category><![CDATA[Uncategorized]]></category>
-		<guid isPermaLink="false">http://xBLOCK-HEADx.github.io/?p=291</guid>
+		<guid isPermaLink="false">/?p=291</guid>
 
 					<description><![CDATA[Lighthouse report performance report says: &#8220;Enable text compression&#8221; This introduced me to brotli, a compression algorithm for (static) assets, supported by most major browsers but significantly not Internet Explorer or Safari As far as apache2 server is concerned, stream compression with brotli is not supported (yet), so I intended to compress static assets on my [&#8230;]]]></description>
 										<content:encoded><![CDATA[
@@ -235,7 +235,7 @@ You can also use the prefilled template from /root/vcpkg/installed/vcpkg/issue_b
 <p>That didn&#8217;t work either&#8230; I give up. For now!</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>http://xBLOCK-HEADx.github.io/how-to-enable-brotli-on-apache2-server-with-gzip-fallback/feed/</wfw:commentRss>
+					<wfw:commentRss>/how-to-enable-brotli-on-apache2-server-with-gzip-fallback/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

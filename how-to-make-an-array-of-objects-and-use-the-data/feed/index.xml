@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: How to make an array of objects and use the data	</title>
-	<atom:link href="http://xBLOCK-HEADx.github.io/how-to-make-an-array-of-objects-and-use-the-data/feed/" rel="self" type="application/rss+xml" />
-	<link>http://xBLOCK-HEADx.github.io/how-to-make-an-array-of-objects-and-use-the-data/</link>
+	<atom:link href="/how-to-make-an-array-of-objects-and-use-the-data/feed/" rel="self" type="application/rss+xml" />
+	<link>/how-to-make-an-array-of-objects-and-use-the-data/</link>
 	<description>How I do stuff...</description>
 	<lastBuildDate>Sat, 01 Oct 2022 03:41:17 +0000</lastBuildDate>
 	<sy:updatePeriod>

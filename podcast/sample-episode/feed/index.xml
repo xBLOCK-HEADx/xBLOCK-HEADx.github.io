@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: Sample Episode	</title>
-	<atom:link href="http://xBLOCK-HEADx.github.io/podcast/sample-episode/feed/" rel="self" type="application/rss+xml" />
-	<link>http://xBLOCK-HEADx.github.io/podcast/sample-episode/</link>
+	<atom:link href="/podcast/sample-episode/feed/" rel="self" type="application/rss+xml" />
+	<link>/podcast/sample-episode/</link>
 	<description>How I do stuff...</description>
 	<lastBuildDate>Sun, 18 Sep 2022 17:49:28 +0000</lastBuildDate>
 	<sy:updatePeriod>

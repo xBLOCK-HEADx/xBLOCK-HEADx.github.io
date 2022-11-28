@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: Essential plugins for WordPress	</title>
-	<atom:link href="http://xBLOCK-HEADx.github.io/essential-plugins-for-wordpress/feed/" rel="self" type="application/rss+xml" />
-	<link>http://xBLOCK-HEADx.github.io/essential-plugins-for-wordpress/</link>
+	<atom:link href="/essential-plugins-for-wordpress/feed/" rel="self" type="application/rss+xml" />
+	<link>/essential-plugins-for-wordpress/</link>
 	<description>How I do stuff...</description>
 	<lastBuildDate>Thu, 15 Sep 2022 23:30:48 +0000</lastBuildDate>
 	<sy:updatePeriod>

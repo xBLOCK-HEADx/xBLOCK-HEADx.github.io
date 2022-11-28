@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: Bulk actions in wordpress	</title>
-	<atom:link href="http://xBLOCK-HEADx.github.io/bulk-actions-in-wordpress/feed/" rel="self" type="application/rss+xml" />
-	<link>http://xBLOCK-HEADx.github.io/bulk-actions-in-wordpress/</link>
+	<atom:link href="/bulk-actions-in-wordpress/feed/" rel="self" type="application/rss+xml" />
+	<link>/bulk-actions-in-wordpress/</link>
 	<description>How I do stuff...</description>
 	<lastBuildDate>Thu, 15 Sep 2022 22:44:48 +0000</lastBuildDate>
 	<sy:updatePeriod>

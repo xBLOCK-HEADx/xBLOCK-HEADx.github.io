@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: Youtube external link thumbnails	</title>
-	<atom:link href="http://xBLOCK-HEADx.github.io/youtube-external-link-thumbnails/feed/" rel="self" type="application/rss+xml" />
-	<link>http://xBLOCK-HEADx.github.io/youtube-external-link-thumbnails/</link>
+	<atom:link href="/youtube-external-link-thumbnails/feed/" rel="self" type="application/rss+xml" />
+	<link>/youtube-external-link-thumbnails/</link>
 	<description>How I do stuff...</description>
 	<lastBuildDate>Sat, 01 Oct 2022 03:40:32 +0000</lastBuildDate>
 	<sy:updatePeriod>

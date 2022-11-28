@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: A crash course in Filezilla	</title>
-	<atom:link href="http://xBLOCK-HEADx.github.io/a-crash-course-in-filezilla/feed/" rel="self" type="application/rss+xml" />
-	<link>http://xBLOCK-HEADx.github.io/a-crash-course-in-filezilla/</link>
+	<atom:link href="/a-crash-course-in-filezilla/feed/" rel="self" type="application/rss+xml" />
+	<link>/a-crash-course-in-filezilla/</link>
 	<description>How I do stuff...</description>
 	<lastBuildDate>Sat, 17 Sep 2022 20:10:12 +0000</lastBuildDate>
 	<sy:updatePeriod>

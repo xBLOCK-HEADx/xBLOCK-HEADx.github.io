@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: How to enable brotli on Apache2 server with gzip fallback	</title>
-	<atom:link href="http://xBLOCK-HEADx.github.io/how-to-enable-brotli-on-apache2-server-with-gzip-fallback/feed/" rel="self" type="application/rss+xml" />
-	<link>http://xBLOCK-HEADx.github.io/how-to-enable-brotli-on-apache2-server-with-gzip-fallback/</link>
+	<atom:link href="/how-to-enable-brotli-on-apache2-server-with-gzip-fallback/feed/" rel="self" type="application/rss+xml" />
+	<link>/how-to-enable-brotli-on-apache2-server-with-gzip-fallback/</link>
 	<description>How I do stuff...</description>
 	<lastBuildDate>Sun, 18 Sep 2022 17:33:48 +0000</lastBuildDate>
 	<sy:updatePeriod>

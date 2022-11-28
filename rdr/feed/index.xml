@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: How to add custom JavaScript to WordPress (Like a boss!)	</title>
-	<atom:link href="http://xBLOCK-HEADx.github.io/rdr/feed/" rel="self" type="application/rss+xml" />
-	<link>http://xBLOCK-HEADx.github.io/rdr/</link>
+	<atom:link href="/rdr/feed/" rel="self" type="application/rss+xml" />
+	<link>/rdr/</link>
 	<description>How I do stuff...</description>
 	<lastBuildDate>Wed, 28 Sep 2022 01:37:49 +0000</lastBuildDate>
 	<sy:updatePeriod>

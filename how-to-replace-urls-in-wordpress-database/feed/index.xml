@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: How to replace urls in wordpress database	</title>
-	<atom:link href="http://xBLOCK-HEADx.github.io/how-to-replace-urls-in-wordpress-database/feed/" rel="self" type="application/rss+xml" />
-	<link>http://xBLOCK-HEADx.github.io/how-to-replace-urls-in-wordpress-database/</link>
+	<atom:link href="/how-to-replace-urls-in-wordpress-database/feed/" rel="self" type="application/rss+xml" />
+	<link>/how-to-replace-urls-in-wordpress-database/</link>
 	<description>How I do stuff...</description>
 	<lastBuildDate>Fri, 16 Sep 2022 10:28:05 +0000</lastBuildDate>
 	<sy:updatePeriod>

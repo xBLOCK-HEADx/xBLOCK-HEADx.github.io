@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Wordpress &#8211; block{}head/</title>
-	<atom:link href="http://xBLOCK-HEADx.github.io/category/wordpress/feed/" rel="self" type="application/rss+xml" />
-	<link>http://xBLOCK-HEADx.github.io</link>
+	<atom:link href="/category/wordpress/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
 	<description>How I do stuff...</description>
 	<lastBuildDate>Thu, 15 Sep 2022 20:03:39 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,22 +21,22 @@
 	<generator>https://wordpress.org/?v=6.1.1</generator>
 
 <image>
-	<url>http://xBLOCK-HEADx.github.io/wp-content/uploads/2022/08/cropped-blockhead-icon-32x32.webp</url>
+	<url>/wp-content/uploads/2022/08/cropped-blockhead-icon-32x32.webp</url>
 	<title>Wordpress &#8211; block{}head/</title>
-	<link>http://xBLOCK-HEADx.github.io</link>
+	<link></link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>How to solve &#8220;imagick module not loaded&#8221; in wordpress</title>
-		<link>http://xBLOCK-HEADx.github.io/how-to-solve-imagick-module-not-loaded-in-wordpress/</link>
-					<comments>http://xBLOCK-HEADx.github.io/how-to-solve-imagick-module-not-loaded-in-wordpress/#respond</comments>
+		<link>/how-to-solve-imagick-module-not-loaded-in-wordpress/</link>
+					<comments>/how-to-solve-imagick-module-not-loaded-in-wordpress/#respond</comments>
 		
 		<dc:creator><![CDATA[test]]></dc:creator>
 		<pubDate>Thu, 15 Sep 2022 19:27:58 +0000</pubDate>
 				<category><![CDATA[Uncategorized]]></category>
 		<category><![CDATA[Wordpress]]></category>
-		<guid isPermaLink="false">http://xBLOCK-HEADx.github.io/?p=221</guid>
+		<guid isPermaLink="false">/?p=221</guid>
 
 					<description><![CDATA[This is a common error for people on VPS or certain hosting providers, for example infinityfree. If you have your own VPS with root access, it&#8217;s an easy fix: First, check your php version Next, install the relevant imagick package, but first do: then, enter the relevant installer package for your php version, for example [&#8230;]]]></description>
 										<content:encoded><![CDATA[
@@ -91,20 +91,20 @@
 <figure class="wp-block-image size-large"><img decoding="async" src="https://imagetragick.com/img/logo-medium.png" alt=""/></figure>
 ]]></content:encoded>
 					
-					<wfw:commentRss>http://xBLOCK-HEADx.github.io/how-to-solve-imagick-module-not-loaded-in-wordpress/feed/</wfw:commentRss>
+					<wfw:commentRss>/how-to-solve-imagick-module-not-loaded-in-wordpress/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>How to justify paragraphs in wp block theme editor</title>
-		<link>http://xBLOCK-HEADx.github.io/how-to-justify-paragraphs-in-wp-block-theme-editor/</link>
-					<comments>http://xBLOCK-HEADx.github.io/how-to-justify-paragraphs-in-wp-block-theme-editor/#respond</comments>
+		<link>/how-to-justify-paragraphs-in-wp-block-theme-editor/</link>
+					<comments>/how-to-justify-paragraphs-in-wp-block-theme-editor/#respond</comments>
 		
 		<dc:creator><![CDATA[test]]></dc:creator>
 		<pubDate>Thu, 04 Aug 2022 01:42:44 +0000</pubDate>
 				<category><![CDATA[Wordpress]]></category>
-		<guid isPermaLink="false">http://xBLOCK-HEADx.github.io/?p=148</guid>
+		<guid isPermaLink="false">/?p=148</guid>
 
 					<description><![CDATA[A personal bug-bear of mine: un-justified text!! It just bugs me from a visual point-of-view. Once upon a time, the Gutenberg editor in WordPress (before becoming the so-called block editor, I think we&#8217;re going back to 2018 or 19 here&#8230;) used to give you a justified text option, just like most word-processing apps do, along-side [&#8230;]]]></description>
 										<content:encoded><![CDATA[
@@ -123,7 +123,7 @@
 <p>2 ways: through custom CSS  or editor toolbox plugin (other older plugins promising to restore the justified text options in wp editor don&#8217;t seem to work on the newer block themes).</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>http://xBLOCK-HEADx.github.io/how-to-justify-paragraphs-in-wp-block-theme-editor/feed/</wfw:commentRss>
+					<wfw:commentRss>/how-to-justify-paragraphs-in-wp-block-theme-editor/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

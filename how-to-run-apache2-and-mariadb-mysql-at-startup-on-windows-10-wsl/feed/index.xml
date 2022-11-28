@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: How to: Run Apache2 and Mariadb (mysql) at startup on Windows 10 WSL	</title>
-	<atom:link href="http://xBLOCK-HEADx.github.io/how-to-run-apache2-and-mariadb-mysql-at-startup-on-windows-10-wsl/feed/" rel="self" type="application/rss+xml" />
-	<link>http://xBLOCK-HEADx.github.io/how-to-run-apache2-and-mariadb-mysql-at-startup-on-windows-10-wsl/</link>
+	<atom:link href="/how-to-run-apache2-and-mariadb-mysql-at-startup-on-windows-10-wsl/feed/" rel="self" type="application/rss+xml" />
+	<link>/how-to-run-apache2-and-mariadb-mysql-at-startup-on-windows-10-wsl/</link>
 	<description>How I do stuff...</description>
 	<lastBuildDate>Thu, 15 Sep 2022 20:03:39 +0000</lastBuildDate>
 	<sy:updatePeriod>

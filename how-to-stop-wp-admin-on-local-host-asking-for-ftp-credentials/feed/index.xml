@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: How to stop wp-admin on local host asking for FTP credentials	</title>
-	<atom:link href="http://xBLOCK-HEADx.github.io/how-to-stop-wp-admin-on-local-host-asking-for-ftp-credentials/feed/" rel="self" type="application/rss+xml" />
-	<link>http://xBLOCK-HEADx.github.io/how-to-stop-wp-admin-on-local-host-asking-for-ftp-credentials/</link>
+	<atom:link href="/how-to-stop-wp-admin-on-local-host-asking-for-ftp-credentials/feed/" rel="self" type="application/rss+xml" />
+	<link>/how-to-stop-wp-admin-on-local-host-asking-for-ftp-credentials/</link>
 	<description>How I do stuff...</description>
 	<lastBuildDate>Thu, 15 Sep 2022 20:03:39 +0000</lastBuildDate>
 	<sy:updatePeriod>
