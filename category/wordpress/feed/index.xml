@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Wordpress &#8211; block{}head/</title>
+	<atom:link href="http://xBLOCK-HEADx.github.io/category/wordpress/feed/" rel="self" type="application/rss+xml" />
+	<link>http://xBLOCK-HEADx.github.io</link>
+	<description>How I do stuff...</description>
+	<lastBuildDate>Thu, 15 Sep 2022 20:03:39 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
+
+<image>
+	<url>http://xBLOCK-HEADx.github.io/wp-content/uploads/2022/08/cropped-blockhead-icon-32x32.webp</url>
+	<title>Wordpress &#8211; block{}head/</title>
+	<link>http://xBLOCK-HEADx.github.io</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>How to solve &#8220;imagick module not loaded&#8221; in wordpress</title>
+		<link>http://xBLOCK-HEADx.github.io/how-to-solve-imagick-module-not-loaded-in-wordpress/</link>
+					<comments>http://xBLOCK-HEADx.github.io/how-to-solve-imagick-module-not-loaded-in-wordpress/#respond</comments>
+		
+		<dc:creator><![CDATA[test]]></dc:creator>
+		<pubDate>Thu, 15 Sep 2022 19:27:58 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[Wordpress]]></category>
+		<guid isPermaLink="false">http://xBLOCK-HEADx.github.io/?p=221</guid>
+
+					<description><![CDATA[This is a common error for people on VPS or certain hosting providers, for example infinityfree. If you have your own VPS with root access, it&#8217;s an easy fix: First, check your php version Next, install the relevant imagick package, but first do: then, enter the relevant installer package for your php version, for example [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>This is a common error for people on VPS or certain hosting providers, for example infinityfree.</p>
+
+
+
+<p>If you have your own VPS with root access, it&#8217;s an easy fix:</p>
+
+
+
+<p>First, check your php version</p>
+
+
+
+<pre class="wp-block-code"><code>php -v</code></pre>
+
+
+
+<p>Next, install the relevant imagick package, but first do:</p>
+
+
+
+<pre class="wp-block-code"><code>sudo apt update</code></pre>
+
+
+
+<p>then, enter the relevant installer package for your php version, for example &#8211; if your php version came up as 7.4.30, then enter:</p>
+
+
+
+<pre class="wp-block-code"><code>sudo apt install php7.4-imagick</code></pre>
+
+
+
+<p>Finally, restart the apache 2 service by entering either of the two commands below:</p>
+
+
+
+<pre class="wp-block-code"><code>systemctl restart apache2</code></pre>
+
+
+
+<p>OR</p>
+
+
+
+<pre class="wp-block-code"><code>service apache2 reload</code></pre>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" src="https://imagetragick.com/img/logo-medium.png" alt=""/></figure>
+]]></content:encoded>
+					
+					<wfw:commentRss>http://xBLOCK-HEADx.github.io/how-to-solve-imagick-module-not-loaded-in-wordpress/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>How to justify paragraphs in wp block theme editor</title>
+		<link>http://xBLOCK-HEADx.github.io/how-to-justify-paragraphs-in-wp-block-theme-editor/</link>
+					<comments>http://xBLOCK-HEADx.github.io/how-to-justify-paragraphs-in-wp-block-theme-editor/#respond</comments>
+		
+		<dc:creator><![CDATA[test]]></dc:creator>
+		<pubDate>Thu, 04 Aug 2022 01:42:44 +0000</pubDate>
+				<category><![CDATA[Wordpress]]></category>
+		<guid isPermaLink="false">http://xBLOCK-HEADx.github.io/?p=148</guid>
+
+					<description><![CDATA[A personal bug-bear of mine: un-justified text!! It just bugs me from a visual point-of-view. Once upon a time, the Gutenberg editor in WordPress (before becoming the so-called block editor, I think we&#8217;re going back to 2018 or 19 here&#8230;) used to give you a justified text option, just like most word-processing apps do, along-side [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>A personal bug-bear of mine: <strong>un-justified text!!</strong></p>
+
+
+
+<p>It just bugs me from a visual point-of-view.</p>
+
+
+
+<p>Once upon a time, the Gutenberg editor in WordPress (before becoming the so-called block editor, I think we&#8217;re going back to 2018 or 19 here&#8230;) used to give you a justified text option, just like most word-processing apps do, along-side the usual left, middle or right alignment options.</p>
+
+
+
+<p>2 ways: through custom CSS  or editor toolbox plugin (other older plugins promising to restore the justified text options in wp editor don&#8217;t seem to work on the newer block themes).</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>http://xBLOCK-HEADx.github.io/how-to-justify-paragraphs-in-wp-block-theme-editor/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

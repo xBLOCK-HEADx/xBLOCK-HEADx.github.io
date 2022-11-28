@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Apache2 &#8211; block{}head/</title>
+	<atom:link href="http://xBLOCK-HEADx.github.io/category/apache2/feed/" rel="self" type="application/rss+xml" />
+	<link>http://xBLOCK-HEADx.github.io</link>
+	<description>How I do stuff...</description>
+	<lastBuildDate>Sun, 18 Sep 2022 17:33:48 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
+
+<image>
+	<url>http://xBLOCK-HEADx.github.io/wp-content/uploads/2022/08/cropped-blockhead-icon-32x32.webp</url>
+	<title>Apache2 &#8211; block{}head/</title>
+	<link>http://xBLOCK-HEADx.github.io</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>How to enable brotli on Apache2 server with gzip fallback</title>
+		<link>http://xBLOCK-HEADx.github.io/how-to-enable-brotli-on-apache2-server-with-gzip-fallback/</link>
+					<comments>http://xBLOCK-HEADx.github.io/how-to-enable-brotli-on-apache2-server-with-gzip-fallback/#respond</comments>
+		
+		<dc:creator><![CDATA[test]]></dc:creator>
+		<pubDate>Sun, 18 Sep 2022 10:46:54 +0000</pubDate>
+				<category><![CDATA[Apache2]]></category>
+		<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">http://xBLOCK-HEADx.github.io/?p=291</guid>
+
+					<description><![CDATA[Lighthouse report performance report says: &#8220;Enable text compression&#8221; This introduced me to brotli, a compression algorithm for (static) assets, supported by most major browsers but significantly not Internet Explorer or Safari As far as apache2 server is concerned, stream compression with brotli is not supported (yet), so I intended to compress static assets on my [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Lighthouse report performance report says: &#8220;Enable text compression&#8221;</p>
+
+
+
+<p>This introduced me to brotli, a compression algorithm for (static) assets, supported by most major browsers but significantly <strong>not </strong>Internet Explorer or Safari</p>
+
+
+
+<p>As far as apache2 server is concerned, stream compression with brotli is not supported (yet), so I intended to compress static assets on my localhost site, prior to uploading to live, with a fallback gzip version for non-compatible browsers.</p>
+
+
+
+<p><strong>Here&#8217;s how I <em>failed</em> to do it&#8230;</strong></p>
+
+
+
+<p>First install brotli</p>
+
+
+
+<p>(probably the easy way, I didn&#8217;t test this as I went with a rather problematic git install &#8211; see below)</p>
+
+
+
+<pre class="wp-block-code"><code>sudo apt install brotli -y</code></pre>
+
+
+
+<p><strong>install with git &lt;&lt;get git&gt;&gt;:</strong></p>
+
+
+
+<p>NOTE: I installed on WSL2 and had to log in as root to get this to work</p>
+
+
+
+<pre class="wp-block-code"><code>sudo su -</code></pre>
+
+
+
+<pre class="wp-block-code"><code>git clone https://github.com/Microsoft/vcpkg.git</code></pre>
+
+
+
+<pre class="wp-block-code"><code>cd vcpkg</code></pre>
+
+
+
+<p>At this point, make sure you have the necessary zip utilities:</p>
+
+
+
+<pre class="wp-block-code"><code>apt-get install curl zip unzip tar</code></pre>
+
+
+
+<p>then:</p>
+
+
+
+<pre class="wp-block-code"><code>./bootstrap-vcpkg.sh</code></pre>
+
+
+
+<pre class="wp-block-code"><code>./vcpkg integrate install</code></pre>
+
+
+
+<p>Note: the second of the above commands will first install cmake if you dont&#8217; already have it &#8211; be patient as there is no progress indicator!</p>
+
+
+
+<p>TROUBLESHOOTING</p>
+
+
+
+<p>After cmake was installed, I then attempted to run <strong>./vcpkg integrate install</strong> again and was presented with the following error:</p>
+
+
+
+<pre class="wp-block-code"><code>error: building brotli:x64-linux failed with: BUILD_FAILED
+Please ensure you're using the latest port files with `git pull` and `vcpkg update`.
+Then check for known issues at:
+    https:&#47;&#47;github.com/microsoft/vcpkg/issues?q=is%3Aissue+is%3Aopen+in%3Atitle+brotli
+You can submit a new issue at:
+    https://github.com/microsoft/vcpkg/issues/new?template=report-package-build-failure.md&title=&#91;brotli]+Build+error
+Include '&#91;brotli] Build error' in your bug report title, the following version information in your bug description, and attach any relevant failure logs from above.
+    vcpkg-tool version: 2022-09-01-dfb82802c8cc562ce3b665a904a65b22314de724
+    vcpkg-scripts version: 01b29f6d8 2022-09-16 (2 days ago)
+
+You can also use the prefilled template from /root/vcpkg/installed/vcpkg/issue_body.md.</code></pre>
+
+
+
+<p>The &#8220;prefilled template&#8221; .md file referred to in the last line informed me that <strong>pkg-config</strong> needed to be installed, so I did the following:</p>
+
+
+
+<pre class="wp-block-code"><code>apt install pkg-config
+</code></pre>
+
+
+
+<p>then I made sure I was back in the /root/vcpkg directory [<strong>cd /root/vcpkg</strong>] and ran the install command again [<strong>vcpkg install brotli</strong>]</p>
+
+
+
+<p><strong>Configure Apache2</strong></p>
+
+
+
+<pre class="wp-block-code"><code>sudo a2enmod brotli</code></pre>
+
+
+
+<p>Next, enable brotli in the host config file for the website in question (for example <strong>nano /etc/apache2/sites-available/&lt;&lt;mysite&gt;&gt;.conf</strong> if it&#8217;s a site that&#8217;s not running yet or <strong>nano /etc/apache2/sites-enabled/&lt;&lt;mysite&gt;&gt;.conf </strong>if the site is currently enabaled on your server). Add the following to the config file:</p>
+
+
+
+<pre class="wp-block-code"><code>&lt;IfModule mod_brotli.c&gt;
+    AddOutputFilterByType BROTLI_COMPRESS text/html text/plain text/xml text/css text/javascript application/javascript
+&lt;/IfModule&gt;</code></pre>
+
+
+
+<p>the config file should now look like this:</p>
+
+
+
+<pre class="wp-block-code"><code>
+&lt;VirtualHost *:80&gt;
+      ServerAdmin webmaster@localhost
+      ServerName example.com
+      DocumentRoot /var/www/
+ 
+      &lt;IfModule mod_brotli.c&gt;
+            AddOutputFilterByType BROTLI_COMPRESS text/html text/plain text/xml text/css text/javascript application/javascript
+      &lt;/IfModule&gt;
+ 
+      ErrorLog ${APACHE_LOG_DIR}/error.log
+      CustomLog ${APACHE_LOG_DIR}/access.log combined
+&lt;/VirtualHost&gt; </code></pre>
+
+
+
+<p>Finally, reload apache2:</p>
+
+
+
+<pre class="wp-block-code"><code>service apache2 reload</code></pre>
+
+
+
+<p><strong>DIDN&#8217;T WORK!! Try this:</strong></p>
+
+
+
+<p>insert this code into .conf file instead:</p>
+
+
+
+<pre class="wp-block-code"><code>&lt;IfModule mod_headers.c&gt;
+    # Serve brotli compressed CSS files if they exist
+    # and the client accepts brotli.
+    RewriteCond "%{HTTP:Accept-encoding}" "br"
+    RewriteCond "%{REQUEST_FILENAME}\.br" "-s"
+    RewriteRule "^(.*)\.css"              "$1\.css\.br" &#91;QSA]
+
+    # Serve brotli compressed JS files if they exist
+    # and the client accepts brotli.
+    RewriteCond "%{HTTP:Accept-encoding}" "br"
+    RewriteCond "%{REQUEST_FILENAME}\.br" "-s"
+    RewriteRule "^(.*)\.js"               "$1\.js\.br" &#91;QSA]
+
+
+    # Serve correct content types, and prevent double compression.
+    RewriteRule "\.css\.br$" "-" &#91;T=text/css,E=no-brotli:1]
+    RewriteRule "\.js\.br$"  "-" &#91;T=text/javascript,E=no-brotli:1]
+
+
+    &lt;FilesMatch "(\.js\.br|\.css\.br)$"&gt;
+      # Serve correct encoding type.
+      Header append Content-Encoding br
+
+      # Force proxies to cache brotli &amp;
+      # non-brotli css/js files separately.
+      Header append Vary Accept-Encoding
+    &lt;/FilesMatch&gt;
+&lt;/IfModule&gt;</code></pre>
+
+
+
+<p>That didn&#8217;t work either&#8230; I give up. For now!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>http://xBLOCK-HEADx.github.io/how-to-enable-brotli-on-apache2-server-with-gzip-fallback/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

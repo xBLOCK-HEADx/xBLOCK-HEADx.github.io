@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Uncategorized &#8211; block{}head/</title>
+	<atom:link href="http://xBLOCK-HEADx.github.io/category/uncategorized/feed/" rel="self" type="application/rss+xml" />
+	<link>http://xBLOCK-HEADx.github.io</link>
+	<description>How I do stuff...</description>
+	<lastBuildDate>Mon, 31 Oct 2022 21:21:56 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
+
+<image>
+	<url>http://xBLOCK-HEADx.github.io/wp-content/uploads/2022/08/cropped-blockhead-icon-32x32.webp</url>
+	<title>Uncategorized &#8211; block{}head/</title>
+	<link>http://xBLOCK-HEADx.github.io</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Fixing CRC errors during copy on Windows &#8211; JFileRecovery, a very handy tool indeed!</title>
+		<link>http://xBLOCK-HEADx.github.io/fixing-crc-errors-on-copy-in-windows/</link>
+					<comments>http://xBLOCK-HEADx.github.io/fixing-crc-errors-on-copy-in-windows/#respond</comments>
+		
+		<dc:creator><![CDATA[test]]></dc:creator>
+		<pubDate>Mon, 31 Oct 2022 21:18:10 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">http://xBLOCK-HEADx.github.io/?p=322</guid>
+
+					<description><![CDATA[So I was trying to move a large amount of files when I got this error: &#60;&#60;screen grab>> The problem (apart from having corrupted data) is that the files affected will NOT copy anywhere. So, since in my case I was trying to clear data off a hard drive, I would have no option but [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>So I was trying to move a large amount of files when I got this error:</p>
+
+
+
+<p>&lt;&lt;screen grab>></p>
+
+
+
+<p>The problem (apart from having corrupted data) is that the files affected will NOT copy anywhere. So, since in my case I was trying to clear data off a hard drive, I would have no option but to delete the files. This is a shame since many of the files may still be use-able and probably only a few dropped bits of data are causing the problem.</p>
+
+
+
+<p>The other issue is: surely this shouldn&#8217;t have happened in the first place&#8230; the files were copied from elsewhere previously and, at that time windows explorer didn&#8217;t give any errors&#8230; </p>
+
+
+
+<p>Here&#8217;s the rub &#8211; Windows explorer doesn&#8217;t verify the data copied after it is written!!</p>
+
+
+
+<p>So, if you&#8217;d like to know how to get around this issue, read on&#8230;</p>
+
+
+
+<ul>
+<li>Use Teracopy &#8211; Win explorer is shit for copying large amounts of data &#8211; NEVER use it for that purpose!</li>
+
+
+
+<li>Don&#8217;t bother with Data recovery tools, unless you specifically know the data was deleted</li>
+
+
+
+<li>Use JFileRecovery 0.94 (softpedia link is good) &#8211; It can heal some files, but most importantly, will still copy the data regardless of corruption, appending &#8220;_recovered&#8221; to the file.</li>
+
+
+
+<li>Make sure to make a note for future reference that the file is possibly damaged [it rather depends what it is and whether the data is critical &#8211; e.g. audio and video files will probably still play fine].</li>
+
+
+
+<li>&lt;&lt;give a brief run-down of how to use>></li>
+
+
+
+<li>In JFileRecovery, you can play with the Block Size and timeout if you want a more &#8220;thorough&#8221; recovery. Personally, I decreased the block size to 14,848 and increased the timeout to 2000ms to give a balance between the time it takes to recover and its likelihood of recovering data.</li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>http://xBLOCK-HEADx.github.io/fixing-crc-errors-on-copy-in-windows/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>how to get calc or xls spreadsheet data into js query</title>
+		<link>http://xBLOCK-HEADx.github.io/how-to-get-calc-or-xls-spreadsheet-data-into-js-query/</link>
+					<comments>http://xBLOCK-HEADx.github.io/how-to-get-calc-or-xls-spreadsheet-data-into-js-query/#respond</comments>
+		
+		<dc:creator><![CDATA[test]]></dc:creator>
+		<pubDate>Sat, 01 Oct 2022 16:20:53 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">http://xBLOCK-HEADx.github.io/?p=319</guid>
+
+					<description><![CDATA[use google -sheets make app to add JSON export (see tabs!!)]]></description>
+										<content:encoded><![CDATA[
+<p>use google -sheets</p>
+
+
+
+<p>make app to add JSON export (see tabs!!)</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>http://xBLOCK-HEADx.github.io/how-to-get-calc-or-xls-spreadsheet-data-into-js-query/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Get ALL Youtube channel info</title>
+		<link>http://xBLOCK-HEADx.github.io/get-all-youtube-channel-info/</link>
+					<comments>http://xBLOCK-HEADx.github.io/get-all-youtube-channel-info/#respond</comments>
+		
+		<dc:creator><![CDATA[test]]></dc:creator>
+		<pubDate>Sat, 01 Oct 2022 15:32:03 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">http://xBLOCK-HEADx.github.io/?p=317</guid>
+
+					<description><![CDATA[python script: https://github.com/amdonatusprince/youtube-channel-video-url-extractor/blob/master/main.py in cmd or powershell (in the directory where script it) run: python &#60;&#60;script>>.py.. change the channel url and target directory at top of script. (may need python on win 10), if so allow it to be installed. may need selenium (pip3 install selenium) see here: https://bobbyhadz.com/blog/python-no-module-named-selenium may need bs4 module (beautiful soup). [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>python script: https://github.com/amdonatusprince/youtube-channel-video-url-extractor/blob/master/main.py</p>
+
+
+
+<p>in cmd or powershell (in the directory where script it) <strong>run: python &lt;&lt;script>>.py..  change the channel url and target directory at top of script. </strong>(may need python on win 10), if so allow it to be installed.</p>
+
+
+
+<p>may need selenium (pip3 install selenium) see here: https://bobbyhadz.com/blog/python-no-module-named-selenium</p>
+
+
+
+<p>may need bs4 module (beautiful soup). : pip install beautifulsoup4</p>
+
+
+
+<p>I sincerely hope this works for you &#8211; <strong>it didn&#8217;t work for me!</strong></p>
+
+
+
+<p><strong>How to get all video titles and video links</strong></p>
+
+
+
+<p>see here: https://www.quora.com/Is-there-any-Python-module-to-extract-all-video-URLs-from-a-YouTube-channel. <strong>copy- paste from console to sheet</strong></p>
+
+
+
+<p>WORKS!</p>
+
+
+
+<p>next&#8230; use this: https://github.com/rohit-chouhan/youtube-thumbnail-api</p>
+
+
+
+<p>to get image urls</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>http://xBLOCK-HEADx.github.io/get-all-youtube-channel-info/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>generate random values that don&#8217;t repeat with js</title>
+		<link>http://xBLOCK-HEADx.github.io/generate-random-values-that-dont-repeat-with-js/</link>
+					<comments>http://xBLOCK-HEADx.github.io/generate-random-values-that-dont-repeat-with-js/#respond</comments>
+		
+		<dc:creator><![CDATA[test]]></dc:creator>
+		<pubDate>Sat, 01 Oct 2022 03:42:35 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">http://xBLOCK-HEADx.github.io/?p=315</guid>
+
+					<description><![CDATA[e.g. random background shift]]></description>
+										<content:encoded><![CDATA[
+<p>e.g. random background shift</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>http://xBLOCK-HEADx.github.io/generate-random-values-that-dont-repeat-with-js/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>How to make an array of objects and use the data</title>
+		<link>http://xBLOCK-HEADx.github.io/how-to-make-an-array-of-objects-and-use-the-data/</link>
+					<comments>http://xBLOCK-HEADx.github.io/how-to-make-an-array-of-objects-and-use-the-data/#respond</comments>
+		
+		<dc:creator><![CDATA[test]]></dc:creator>
+		<pubDate>Sat, 01 Oct 2022 03:41:17 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">http://xBLOCK-HEADx.github.io/?p=313</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+					<wfw:commentRss>http://xBLOCK-HEADx.github.io/how-to-make-an-array-of-objects-and-use-the-data/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Youtube external link thumbnails</title>
+		<link>http://xBLOCK-HEADx.github.io/youtube-external-link-thumbnails/</link>
+					<comments>http://xBLOCK-HEADx.github.io/youtube-external-link-thumbnails/#respond</comments>
+		
+		<dc:creator><![CDATA[test]]></dc:creator>
+		<pubDate>Sat, 01 Oct 2022 03:40:32 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">http://xBLOCK-HEADx.github.io/?p=311</guid>
+
+					<description><![CDATA[css/html styling, links in new tab]]></description>
+										<content:encoded><![CDATA[
+<p>css/html styling, links in new tab</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>http://xBLOCK-HEADx.github.io/youtube-external-link-thumbnails/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>How to convert JSON to javascript</title>
+		<link>http://xBLOCK-HEADx.github.io/how-to-convert-json-to-javascript/</link>
+					<comments>http://xBLOCK-HEADx.github.io/how-to-convert-json-to-javascript/#respond</comments>
+		
+		<dc:creator><![CDATA[test]]></dc:creator>
+		<pubDate>Sat, 01 Oct 2022 03:39:28 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">http://xBLOCK-HEADx.github.io/?p=309</guid>
+
+					<description><![CDATA[convert syntax call as .js in head script]]></description>
+										<content:encoded><![CDATA[
+<p>convert syntax</p>
+
+
+
+<p>call as .js in head script</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>http://xBLOCK-HEADx.github.io/how-to-convert-json-to-javascript/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>How to add custom JavaScript to WordPress (Like a boss!)</title>
+		<link>http://xBLOCK-HEADx.github.io/rdr/</link>
+					<comments>http://xBLOCK-HEADx.github.io/rdr/#respond</comments>
+		
+		<dc:creator><![CDATA[test]]></dc:creator>
+		<pubDate>Tue, 27 Sep 2022 17:48:43 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">http://xBLOCK-HEADx.github.io/?p=301</guid>
+
+					<description><![CDATA[Without plugin:]]></description>
+										<content:encoded><![CDATA[
+<p>Without plugin:</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>http://xBLOCK-HEADx.github.io/rdr/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>How to enable brotli on Apache2 server with gzip fallback</title>
+		<link>http://xBLOCK-HEADx.github.io/how-to-enable-brotli-on-apache2-server-with-gzip-fallback/</link>
+					<comments>http://xBLOCK-HEADx.github.io/how-to-enable-brotli-on-apache2-server-with-gzip-fallback/#respond</comments>
+		
+		<dc:creator><![CDATA[test]]></dc:creator>
+		<pubDate>Sun, 18 Sep 2022 10:46:54 +0000</pubDate>
+				<category><![CDATA[Apache2]]></category>
+		<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">http://xBLOCK-HEADx.github.io/?p=291</guid>
+
+					<description><![CDATA[Lighthouse report performance report says: &#8220;Enable text compression&#8221; This introduced me to brotli, a compression algorithm for (static) assets, supported by most major browsers but significantly not Internet Explorer or Safari As far as apache2 server is concerned, stream compression with brotli is not supported (yet), so I intended to compress static assets on my [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Lighthouse report performance report says: &#8220;Enable text compression&#8221;</p>
+
+
+
+<p>This introduced me to brotli, a compression algorithm for (static) assets, supported by most major browsers but significantly <strong>not </strong>Internet Explorer or Safari</p>
+
+
+
+<p>As far as apache2 server is concerned, stream compression with brotli is not supported (yet), so I intended to compress static assets on my localhost site, prior to uploading to live, with a fallback gzip version for non-compatible browsers.</p>
+
+
+
+<p><strong>Here&#8217;s how I <em>failed</em> to do it&#8230;</strong></p>
+
+
+
+<p>First install brotli</p>
+
+
+
+<p>(probably the easy way, I didn&#8217;t test this as I went with a rather problematic git install &#8211; see below)</p>
+
+
+
+<pre class="wp-block-code"><code>sudo apt install brotli -y</code></pre>
+
+
+
+<p><strong>install with git &lt;&lt;get git&gt;&gt;:</strong></p>
+
+
+
+<p>NOTE: I installed on WSL2 and had to log in as root to get this to work</p>
+
+
+
+<pre class="wp-block-code"><code>sudo su -</code></pre>
+
+
+
+<pre class="wp-block-code"><code>git clone https://github.com/Microsoft/vcpkg.git</code></pre>
+
+
+
+<pre class="wp-block-code"><code>cd vcpkg</code></pre>
+
+
+
+<p>At this point, make sure you have the necessary zip utilities:</p>
+
+
+
+<pre class="wp-block-code"><code>apt-get install curl zip unzip tar</code></pre>
+
+
+
+<p>then:</p>
+
+
+
+<pre class="wp-block-code"><code>./bootstrap-vcpkg.sh</code></pre>
+
+
+
+<pre class="wp-block-code"><code>./vcpkg integrate install</code></pre>
+
+
+
+<p>Note: the second of the above commands will first install cmake if you dont&#8217; already have it &#8211; be patient as there is no progress indicator!</p>
+
+
+
+<p>TROUBLESHOOTING</p>
+
+
+
+<p>After cmake was installed, I then attempted to run <strong>./vcpkg integrate install</strong> again and was presented with the following error:</p>
+
+
+
+<pre class="wp-block-code"><code>error: building brotli:x64-linux failed with: BUILD_FAILED
+Please ensure you're using the latest port files with `git pull` and `vcpkg update`.
+Then check for known issues at:
+    https:&#47;&#47;github.com/microsoft/vcpkg/issues?q=is%3Aissue+is%3Aopen+in%3Atitle+brotli
+You can submit a new issue at:
+    https://github.com/microsoft/vcpkg/issues/new?template=report-package-build-failure.md&title=&#91;brotli]+Build+error
+Include '&#91;brotli] Build error' in your bug report title, the following version information in your bug description, and attach any relevant failure logs from above.
+    vcpkg-tool version: 2022-09-01-dfb82802c8cc562ce3b665a904a65b22314de724
+    vcpkg-scripts version: 01b29f6d8 2022-09-16 (2 days ago)
+
+You can also use the prefilled template from /root/vcpkg/installed/vcpkg/issue_body.md.</code></pre>
+
+
+
+<p>The &#8220;prefilled template&#8221; .md file referred to in the last line informed me that <strong>pkg-config</strong> needed to be installed, so I did the following:</p>
+
+
+
+<pre class="wp-block-code"><code>apt install pkg-config
+</code></pre>
+
+
+
+<p>then I made sure I was back in the /root/vcpkg directory [<strong>cd /root/vcpkg</strong>] and ran the install command again [<strong>vcpkg install brotli</strong>]</p>
+
+
+
+<p><strong>Configure Apache2</strong></p>
+
+
+
+<pre class="wp-block-code"><code>sudo a2enmod brotli</code></pre>
+
+
+
+<p>Next, enable brotli in the host config file for the website in question (for example <strong>nano /etc/apache2/sites-available/&lt;&lt;mysite&gt;&gt;.conf</strong> if it&#8217;s a site that&#8217;s not running yet or <strong>nano /etc/apache2/sites-enabled/&lt;&lt;mysite&gt;&gt;.conf </strong>if the site is currently enabaled on your server). Add the following to the config file:</p>
+
+
+
+<pre class="wp-block-code"><code>&lt;IfModule mod_brotli.c&gt;
+    AddOutputFilterByType BROTLI_COMPRESS text/html text/plain text/xml text/css text/javascript application/javascript
+&lt;/IfModule&gt;</code></pre>
+
+
+
+<p>the config file should now look like this:</p>
+
+
+
+<pre class="wp-block-code"><code>
+&lt;VirtualHost *:80&gt;
+      ServerAdmin webmaster@localhost
+      ServerName example.com
+      DocumentRoot /var/www/
+ 
+      &lt;IfModule mod_brotli.c&gt;
+            AddOutputFilterByType BROTLI_COMPRESS text/html text/plain text/xml text/css text/javascript application/javascript
+      &lt;/IfModule&gt;
+ 
+      ErrorLog ${APACHE_LOG_DIR}/error.log
+      CustomLog ${APACHE_LOG_DIR}/access.log combined
+&lt;/VirtualHost&gt; </code></pre>
+
+
+
+<p>Finally, reload apache2:</p>
+
+
+
+<pre class="wp-block-code"><code>service apache2 reload</code></pre>
+
+
+
+<p><strong>DIDN&#8217;T WORK!! Try this:</strong></p>
+
+
+
+<p>insert this code into .conf file instead:</p>
+
+
+
+<pre class="wp-block-code"><code>&lt;IfModule mod_headers.c&gt;
+    # Serve brotli compressed CSS files if they exist
+    # and the client accepts brotli.
+    RewriteCond "%{HTTP:Accept-encoding}" "br"
+    RewriteCond "%{REQUEST_FILENAME}\.br" "-s"
+    RewriteRule "^(.*)\.css"              "$1\.css\.br" &#91;QSA]
+
+    # Serve brotli compressed JS files if they exist
+    # and the client accepts brotli.
+    RewriteCond "%{HTTP:Accept-encoding}" "br"
+    RewriteCond "%{REQUEST_FILENAME}\.br" "-s"
+    RewriteRule "^(.*)\.js"               "$1\.js\.br" &#91;QSA]
+
+
+    # Serve correct content types, and prevent double compression.
+    RewriteRule "\.css\.br$" "-" &#91;T=text/css,E=no-brotli:1]
+    RewriteRule "\.js\.br$"  "-" &#91;T=text/javascript,E=no-brotli:1]
+
+
+    &lt;FilesMatch "(\.js\.br|\.css\.br)$"&gt;
+      # Serve correct encoding type.
+      Header append Content-Encoding br
+
+      # Force proxies to cache brotli &amp;
+      # non-brotli css/js files separately.
+      Header append Vary Accept-Encoding
+    &lt;/FilesMatch&gt;
+&lt;/IfModule&gt;</code></pre>
+
+
+
+<p>That didn&#8217;t work either&#8230; I give up. For now!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>http://xBLOCK-HEADx.github.io/how-to-enable-brotli-on-apache2-server-with-gzip-fallback/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>A crash course in Filezilla</title>
+		<link>http://xBLOCK-HEADx.github.io/a-crash-course-in-filezilla/</link>
+					<comments>http://xBLOCK-HEADx.github.io/a-crash-course-in-filezilla/#respond</comments>
+		
+		<dc:creator><![CDATA[test]]></dc:creator>
+		<pubDate>Sat, 17 Sep 2022 20:10:12 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">http://xBLOCK-HEADx.github.io/?p=287</guid>
+
+					<description><![CDATA[Filezilla really is the go-to free FTP software. Here are my notes on how to get the most out of it. Define your sites Check the file transfer settings &#8211; binary is best Use the BOTTOM pane! Use the Queue, THEN download the files Set you preferred editors for file-types Edit, switch back, OK to [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Filezilla really is the go-to free FTP software.</p>
+
+
+
+<p>Here are my notes on how to get the most out of it.</p>
+
+
+
+<ol><li>Define your sites</li><li>Check the file transfer settings &#8211; binary is best</li><li>Use the BOTTOM pane!</li><li>Use the Queue, THEN download the files</li><li>Set you preferred editors for file-types</li><li>Edit, switch back, OK to replace.</li><li>update new only</li></ol>
+]]></content:encoded>
+					
+					<wfw:commentRss>http://xBLOCK-HEADx.github.io/a-crash-course-in-filezilla/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
